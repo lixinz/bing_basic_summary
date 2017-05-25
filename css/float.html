@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>float一些DEMO</title>
+		<style type="text/css">
+			.div-1{
+				width: 100px;
+				height: 100px;
+				background-color: #333;
+				float: left;
+				color:#fff;
+			}
+			.div-2{
+				background-color: #aaa;
+				color:#fff;
+			}
+			.div-3{
+				width: 100px;
+				height: 100px;
+				background-color: #333;
+				float: left;
+				color:#fff;
+			}
+			.div-4{
+				width: 100px;
+				height: 100px;
+				background-color: #aaa;
+				float: left;
+				color:#fff;
+			}
+			.div-5{
+				background-color: #333;
+				color:#fff;
+			}
+			.div-6{
+				background-color: #aaa;
+				width: 100px;
+				height: 100px;
+				float: left;
+				color:#fff;
+			}
+			.ex{
+				height: 200px;
+   			border-top: 1px solid;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="ex">
+			<p>这为第一种情况</p>
+			<div class="parent">
+				<div class="div-1">div-1为float:left</div>
+				<div class="div-2">div-2不为float:left</div>
+			</div>
+		</div>
+		<div class="ex">
+			<p>这为第二种情况</p>
+			<div class="parent">
+				<div class="div-3">div-1为float:left</div>
+				<div class="div-4">div-2为float:left</div>
+			</div>
+		</div>
+		<div class="ex">
+			<p>这为第三种情况</p>
+			<div class="parent">
+				<div class="div-5">div-1不为float:left</div>
+				<div class="div-6">div-2为float:left</div>
+			</div>
+		</div>
+		<div class="ex">
+			<p>这为第四种情况</p>
+			<div class="parent">
+				<span class="div-1">span-1为float:left</span>
+				<span class="div-2">span-2不为float:left</span>
+			</div>
+		</div>
+		<div class="ex">
+			<p>这为第五种情况</p>
+			<div class="parent">
+				<span class="div-3">span-1为float:left</span>
+				<span class="div-4">span-2不为float:left</span>
+			</div>
+		</div>
+		<div class="ex">
+			<p>这为第六种情况</p>
+			<div class="parent">
+				<span class="div-5">span-1不为float:left</span>
+				<span class="div-6">span-2为float:left</span>
+			</div>
+		</div>
+	</body>
+</html>
